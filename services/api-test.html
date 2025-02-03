@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api testing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    
+  <section id="header">
+    <nav class="header-nav">
+      <ul class="list-unstyled">
+          <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+          <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+          <li ><a href="#"><i class="fa-solid fa-phone"></i> <span data-i18n="nu">:+20 101 609 6128</span></a></li>
+      </ul>
+      <select>
+        <option value="en"  data-i18n="english">En</option>
+        <option value="ar" data-i18n="arabic">Ar</option>
+        <option value="ge" data-i18n="german">De</option>
+      </select>
+  </nav>
+
+  <div class="header-menu">
+    <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html" data-i18n="home">Home</a></li>
+        <li ><a href="../aboutus/qualityassurance.html" data-i18n="about">About us</a>
+         </li>
+        <li class="dropdown"><a href="#" data-i18n="services">services</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="submenu">
+            <li class="dropdown"><a href="#" data-i18n="sol">solutions</a><i class="fa-solid fa-chevron-down"></i>
+              <uL class="submenu submenu-right">
+                <li><a href="manaual-test.html" data-i18n="maual">manual testing</a></li>
+                        <li><a href="test-automation.html" data-i18n="auto">test automation</a></li>
+                        <li><a href="performance-test.html" data-i18n="perform">Performance testing</a></li>
+                        <li><a href="qacontrol&advisory.html" data-i18n="control">QA Control & Advisory</a></li>
+                        <li><a href="qastrategy&processdesign.html" data-i18n="strategy">QA Strategy & Process design</a></li>
+                        <li><a href="devops.html" data-i18n="dev">devOps</a></li>
+                        <li><a href="jira.html" data-i18n="jira">jira</a></li>
+                        <li><a href="endtoend.html" data-i18n="end">end to End Testing</a></li>
+                       
+                  
+              </uL>
+          </li>
+          <li class="dropdown"><a href="#" data-i18n="sysandplat">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+            <uL class="submenu submenu-right">
+                <li><a href="webapps.html" data-i18n="web">web apps</a></li>
+                <li><a href="mobileapps.html" data-i18n="mob">mobile apps</a></li>
+                <li><a href="sap.html" data-i18n="sap">SAP</a></li>
+                <li><a href="erp.html" data-i18n="erp">ERP</a></li>
+                <li><a href="dynamicCRM.html" data-i18n="dynamic">dynamic CRM</a></li>
+               
+                <li><a href="financialsystem.html" data-i18n="fianancial">Financial System</a></li>
+                
+            </uL>
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="cover">coverage</a><i class="fa-solid fa-chevron-down"></i>
+          <uL class="submenu submenu-right">
+              <li><a href="functional.html" data-i18n="func">functional Testing</a></li>
+              <li class="dropdown"><a href="non-functional.html" data-i18n="nonfunc">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+               <ul class="submenu submenu-right">
+                  <li><a href="ui&ux.html" data-i18n="uiux">UI&UX Testing</a></li>
+                  <li><a href="load&stress.html" data-i18n="loadstress">load & Stress Testing</a></li>
+               </ul>
+              </li>
+              <li><a href="system-test.html" data-i18n="systest">system Testing</a></li>
+              <li><a href="intergration.html" data-i18n="integration">integration Testing</a></li>
+              <li><a href="uat.html" data-i18n="uat">UAT Testing</a></li>
+              <li><a href="localization.html" data-i18n="local">Localization Testing</a></li>
+              <li><a href="ad-hoc.html" data-i18n="adhoc">Ad-Hoc Testing</a></li>
+              <li><a href="api-test.html" data-i18n="api">Api Testing</a></li>
+              
+          </uL></li>
+            
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="industries">industries</a><i class="fa-solid fa-chevron-down"></i>
+          
+        
+            <ul class="submenu ">
+                <div class="twolist">
+                  <li><a href="../industries/fintech.html" data-i18n="fintech">fintech</a></li>
+                  <li><a href="../industries/healthcare.html" data-i18n="health">healthCare</a></li>
+                  <li><a href="../industries/businessapp.html" data-i18n="business">business app</a></li>
+                  <li><a href="../industries/travel.html" data-i18n="travel">travel</a></li>
+                  <li><a href="../industries/e-learning.html" data-i18n="elearn">e-learning</a></li>
+                  <li><a href="../industries/insurance.html" data-i18n="insurance">insurance</a></li>
+                  <li><a href="../industries/e-commerce.html" data-i18n="ecommerce">e-commerce</a></li>
+                  <li><a href="../industries/hr.html" data-i18n="hr">HR</a></li>
+            </div>
+            </ul>
+    
+       
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="frameworks">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="submenu">
+            <div class="twolist">
+              <li><a href="../frameworks/selenuim.html" data-i18n="selenium">selenium</a></li>
+              <li><a href="../frameworks/playwright.html" data-i18n="playwright">playwright</a></li>
+              <li><a href="../frameworks/testng.html" data-i18n="testng">testNG</a></li>
+            
+              <li><a href="../frameworks/maven.html" data-i18n="maven">maven</a></li>
+              <li><a href="../frameworks/tosca.html" data-i18n="tosca">tosca</a></li>
+              <li><a href="../frameworks/cucumber.html" data-i18n="cucumber">cucumber</a></li>
+              <li><a href="../frameworks/cypress.html" data-i18n="cypress">cypress</a></li>
+              <li><a href="../frameworks/appium.html" data-i18n="appium">appium</a></li>
+              <li><a href="../frameworks/postman.html" data-i18n="postman">postman</a></li>
+        </div>  
+        </ul>
+        </li>
+        
+        <li><a href="../contactus.html" data-i18n="contact">contact us</a></li>
+        <button class="closemenu">X</button>
+    </ul>
+   </nav>
+     <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+   </div>
+    </section> 
+<button class="chat-toggle">
+  <span><i class="fa-brands fa-rocketchat"></i></span>
+  
+</button>
+<section class="chatbot">
+  <header >
+    <span class="closechat">x</span>
+    <i class="fa-brands fa-bots fa-3x"></i>
+    <h2>Let's chat!</h2>
+  </header>
+  <div class="chat-area">
+    <div class="chat bot">
+      <p>Hi there,   <br>Please let me know how can i help you? </p>
+    </div>
+    <div class="chat human">
+    </div>
+  </div>
+  <form class="input-chat">
+    <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+  </form>
+</section>
+      <section class="section-m1">
+        <div class="general fgeneral">
+            <div class="image">
+                <img src="../imgs/services/api testing.jpg">
+            </div>
+            <div class="text">
+            <p data-i18n="apidef">Developing an API can empower a business with increased flexibility, collaboration opportunities, innovation, and the ability to adapt to changing market demands. It's a strategic investment that can contribute to the overall growth and competitiveness of a business in today's interconnected digitalized world. However, like any piece of software, an API requires rigorous testing to ensure it adheres to the given requirements. That's where our API Testing Services come in, ensuring all the aspects of your API meet the highest standards.
+            </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-m2 endperform" >
+        <div >
+            <h3 data-i18n="apiperfom">How to perform API Test Automation?</h3>
+            
+        </div>
+        <ul class="list-unstyled">
+             <li><span>1</span> <a href="#" data-i18n="selectapi">Select a Tool:</a><span data-i18n="spselapi">Many tools are available for API testing like Postman, Rest Assured, and TestProject. These API testing tools help you to send requests to your API and validate the responses.</span></li>
+            <li> <span>2</span> <a href="#" data-i18n="undapi">Understand the API:</a><span data-i18n="spundapi">Based on the API documentation, create test cases that cover all possible scenarios. This includes positive testing (valid inputs), negative testing (invalid inputs), and edge case testing.</span></li>
+             <li> <span>3</span> <a href="#" data-i18n="creapi">Create Test Cases:</a><span data-i18n="spcreapi">Create a testing environment that mimics the production setting.</span></li>
+             <li> <span>4</span> <a href="#" data-i18n="exeapi">Execute Test Cases:</a><span data-i18n="spexeapi"> Use the selected tool to execute the test cases. This involves sending requests to the API endpoints and validating the responses against the expected results.</span></li>
+             <li> <span>5</span> <a href="#" data-i18n="intapi">Integrate with CI/CD Pipeline:</a><span data-i18n="spintapi">Integrate your API tests with your CI/CD pipeline. This ensures that your tests are executed automatically whenever changes are made to the API.</span></li>
+             <li> <span>6</span> <a href="#" data-i18n="anaapi">Analyze Test Results:</a><span data-i18n="spanaapi">After executing the tests, analyze the results to identify any failures or issues. If any issues are found, report them to the development team for resolution.</span></li>
+        
+        </ul>
+    </section>
+    <section class="section-m1" >
+        <div class="f-text section-m1">
+            <h2 data-i18n="apiscope"> The scope of our api testing services</h2>
+            <p data-i18n="papiscope">Executing a wide range of tests both manual and automated, Qzentrum’s experts check diverse aspects of API operations.</p>
+       </div>
+       <div class="types api">
+          <div class="type">
+            <i class="fa-solid fa-lines-leaning"></i>
+            <h3 data-i18n="apifunc">Api Functional testing</h3>
+            <p data-i18n="papifunce">Ensure that your API functions as intended by thoroughly testing its individual components and functionalities. We validate inputs, outputs, and expected behaviors to detect any issues early in the development process.</p>
+          </div>
+          <div class="type">
+            <i class="fa-regular fa-clock"></i>
+            <h3 data-i18n="apipert">Api Performance testing</h3>
+            <p data-i18n="papipert">Optimize the speed and efficiency of your API with performance testing. We evaluate response time, scalability, and resource usage to identify and address bottlenecks, ensuring your API can handle peak loads with ease. </p>
+          </div>
+          <div class="type">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3 data-i18n="apisec">Api Security testing</h3>
+            <p data-i18n="papisec">We perform the whole scope of security tests to identify possible vulnerabilities. We check for common security issues, such as SQL injection, cross-site scripting (XSS), and proper handling of sensitive information.</p>
+          </div>
+          <div class="type">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3 data-i18n="apiint">Api Integration testing</h3>
+            <p data-i18n="papiint">Verify the smooth integration of your API with other software components. We thoroughly examine how your API interacts with third-party services, ensuring that seamless data flows.</p>
+          </div>
+          <div class="type">
+            <i class="fa-solid fa-grip-lines"></i>
+            <h3 data-i18n="apifuzz">Api Fuzz testing</h3>
+            <p data-i18n="papifuzz">Identify potential vulnerabilities in your API by subjecting it to a wide range of unexpected inputs and data formats. This method helps uncover hidden issues that might not be apparent during regular testing.</p>
+          </div>
+          <div class="type">
+            <i class="fa-solid fa-anchor"></i>
+            <h3 data-i18n="apiendpo">Endpoint verification</h3>
+            <p data-i18n="papiendpo">We rigorously test each API endpoint to ensure that it accepts requests, processes them correctly, and returns expected responses. Particular attention is paid to parameters, request methods, and response status codes.</p>
+          </div>
+          <div class="type">
+            <i class="fa-solid fa-rotate-right"></i>
+            <h3 data-i18n="apiinou">Input and Output Validation</h3>
+            <p data-i18n="papiinou">We send requests with valid and invalid to verify that the API handles input validation correctly. Similarly, we validate the output data to ensure it matches the expected format and values.</p>
+          </div>
+          <div class="type">
+            <i class="fa-solid fa-ticket"></i>
+            <h3 data-i18n="apidoc">Api Documentation testing</h3>
+            <p data-i18n="papidoc">We validate that the API documentation is accurate and up-to-date and ensure that it provides clear instructions on how to use the API, including endpoints, parameters, authentication methods, and example requests and responses.</p>
+          </div>
+       </div>
+    </section>
+    <section class="footer ">
+      <div class="footer-container">
+        <div class="foot">
+          <h3 data-i18n="abq">ABOUT Qzentrum</h3>
+          <p data-i18n="pabq1">QZentrum ist ein ambitionierter Startup-Anbieter von QA-Diensten.</p>
+          <p data-i18n="pabq2">Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+        </div>
+     
+        <div class="foot">
+          <h3 data-i18n="scon">Bleiben Sie in Kontakt</h3>
+          <div class="icons">
+            <a href="https://www.linkedin.com/company/102398877/admin/dashboard/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61567704837787"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+          
+        </div>
+        </div>
+         <div class="foot">
+          <h3 data-i18n="coni">Kontaktinformationen</h3>
+          <p><a href="tel:01016096128" ><i class="fa-solid fa-mobile-retro"></i> <span data-i18n="nu">+20 101 609 6128</span></a></p>
+          <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i>sk@qzentrum.com</a></p>
+        
+        </div>
+      </div>
+      <div class="footer-copy">
+       
+         &copy;2024 <span>Qzentrum</span>, All rights reserved 
+      
+      </div>
+    </section>
+    <script src="../js/main.js" type="module"></script>
+</body>
+</html>

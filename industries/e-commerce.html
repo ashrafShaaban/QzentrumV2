@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Commerce testing service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  
+  <section id="header">
+    <nav class="header-nav">
+      <ul class="list-unstyled">
+          <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+          <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+          <li ><a href="#"><i class="fa-solid fa-phone"></i> <span data-i18n="nu">:+20 101 609 6128</span></a></li>
+      </ul>
+      <select>
+        <option value="en"  data-i18n="english">En</option>
+        <option value="ar" data-i18n="arabic">Ar</option>
+        <option value="ge" data-i18n="german">De</option>
+      </select>
+  </nav>
+
+     <div class="header-menu">
+      <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+      <nav class="menu">
+          <ul>
+            <li><a href="../index.html" data-i18n="home">Home</a></li>
+            <li class="dropdown"><a href="../aboutus/qualityassurance.html" data-i18n="about">About us</a>
+              </li>
+          <li class="dropdown"><a href="#" data-i18n="services">services</a><i class="fa-solid fa-chevron-down"></i>
+            <ul class="submenu">
+              <li class="dropdown"><a href="#" data-i18n="sol">solutions</a><i class="fa-solid fa-chevron-down"></i>
+                <uL class="submenu submenu-right">
+                  <li><a href="../services/manaual-test.html" data-i18n="maual">manual testing</a></li>
+                  <li><a href="../services/test-automation.html" data-i18n="auto">test automation</a></li>
+                  <li><a href="../services/performance-test.html" data-i18n="perform">Performance testing</a></li>
+                  <li><a href="../services/qacontrol&advisory.html" data-i18n="control">QA Control & Advisory</a></li>
+                  <li><a href="../services/qastrategy&processdesign.html" data-i18n="strategy">QA Strategy & Process design</a></li>
+                  <li><a href="../services/devops.html" data-i18n="dev">devOps</a></li>
+                  <li><a href="../services/jira.html" data-i18n="jira">jira</a></li>
+                  <li><a href="../services/endtoend.html" data-i18n="end">end to End Testing</a></li>
+                    
+                </uL>
+            </li>
+              <li class="dropdown"><a href="#" data-i18n="sysandplat">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+                  <uL class="submenu submenu-right">
+                    <li><a href="../services/webapps.html" data-i18n="web">web apps</a></li>
+                    <li><a href="../services/mobileapps.html" data-i18n="mob">mobile apps</a></li>
+                    <li><a href="../services/sap.html" data-i18n="sap">SAP</a></li>
+                    <li><a href="../services/erp.html" data-i18n="erp">ERP</a></li>
+                    <li><a href="../services/dynamicCRM.html" data-i18n="dynamic">dynamic CRM</a></li>
+                   
+                    <li><a href="../services/financialsystem.html" data-i18n="fianancial">Financial System</a></li>
+                  </uL>
+              </li>
+              <li class="dropdown"><a href="#" data-i18n="cover">coverage</a><i class="fa-solid fa-chevron-down"></i>
+                <uL class="submenu submenu-right">
+                    <li><a href="../services/functional.html" data-i18n="func">functional Testing</a></li>
+                    <li class="dropdown"><a href="/services/non-functional.html" data-i18n="nonfunc">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+                     <ul class="submenu submenu-right">
+                        <li><a href="../services/ui&ux.html" data-i18n="uiux">UI&UX Testing</a></li>
+                        <li><a href="../services/load&stress.html" data-i18n="loadstress">load & Stress Testing</a></li>
+                     </ul>
+                    </li>
+                    <li><a href="../services/system-test.html" data-i18n="systest">system Testing</a></li>
+                    <li><a href="../services/intergration.html" data-i18n="integration">integration Testing</a></li>
+                    <li><a href="../services/uat.html" data-i18n="uat">UAT Testing</a></li>
+                    <li><a href="../services/localization.html" data-i18n="local">Localization Testing</a></li>
+                    <li><a href="../services/ad-hoc.html" data-i18n="adhoc">Ad-Hoc Testing</a></li>
+                    <li><a href="../services/api-test.html" data-i18n="api">Api Testing</a></li>
+                    
+                </uL></li>
+              
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-i18n="industries">industries</a><i class="fa-solid fa-chevron-down"></i>
+            
+          
+            <ul class="submenu ">
+                <div class="twolist">
+                <li><a href="fintech.html" data-i18n="fintech">fintech</a></li>
+                <li><a href="healthcare.html" data-i18n="health">healthCare</a></li>
+                <li><a href="businessapp.html" data-i18n="business">business app</a></li>
+                <li><a href="travel.html" data-i18n="travel">travel</a></li>
+                <li><a href="e-learning.html" data-i18n="elearn">e-learning</a></li>
+                <li><a href="insurance.html" data-i18n="insurance">insurance</a></li>
+                <li><a href="e-commerce.html" data-i18n="ecommerce">e-commerce</a></li>
+                <li><a href="hr.html" data-i18n="hr">HR</a></li>
+            </div>
+            </ul>
+    
+       
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="frameworks">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="submenu">
+            <div class="twolist">
+            <li><a href="../frameworks/selenuim.html" data-i18n="selenium">selenium</a></li>
+            <li><a href="../frameworks/playwright.html" data-i18n="playwright">playwright</a></li>
+            <li><a href="../frameworks/testng.html" data-i18n="testng">testNG</a></li>
+          
+            <li><a href="../frameworks/maven.html" data-i18n="maven">maven</a></li>
+            <li><a href="../frameworks/tosca.html" data-i18n="tosca">tosca</a></li>
+            <li><a href="../frameworks/cucumber.html" data-i18n="cucumber">cucumber</a></li>
+            <li><a href="../frameworks/cypress.html" data-i18n="cypress">cypress</a></li>
+            <li><a href="../frameworks/appium.html" data-i18n="appium">appium</a></li>
+            <li><a href="../frameworks/postman.html" data-i18n="postman">postman</a></li>
+        </div>  
+        </ul>
+        </li>
+         
+          <li><a href="../contactus.html" data-i18n="contact">contact us</a></li>
+          <button class="closemenu">X</button>
+      </ul>
+     </nav>
+     <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+     </div>
+</section>
+    <button class="chat-toggle">
+      <span><i class="fa-brands fa-rocketchat"></i></span>
+      
+    </button>
+    <section class="chatbot">
+      <header >
+        <span class="closechat">x</span>
+        <i class="fa-brands fa-bots fa-3x"></i>
+        <h2>Let's chat!</h2>
+      </header>
+      <div class="chat-area">
+        <div class="chat bot">
+          <p>Hi there,   <br>Please let me know how can i help you? </p>
+        </div>
+        <div class="chat human">
+        </div>
+      </div>
+      <form class="input-chat">
+        <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </section>
+    <section class="section-m1">
+        <div class="general fgeneral">
+            <div class="image">
+                <img src="../imgs/industries/e-commerce.png">
+            </div>
+            <div class="text">
+            <p data-i18n="ecomdef"> Testing an eCommerce application involves checking its functionality, security, performance, and usability to ensure it works well and provides a positive user experience. Thoroughly tested eCommerce solutions tend to have higher conversion rates. Around 88% of online shoppers are less likely to return to an eShop after a bad experience, emphasizing the importance of comprehensive testing in ensuring a positive user experience.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-m1 need">
+        <div class="f-text ">
+            <h2 data-i18n="ecarc">eCommerce architecture</h2>
+            
+       </div>
+       <div class="types e-commerce">
+          <div class="type">
+            
+            <h3 data-i18n="ecuil">User Interface Layer</h3>
+            <ul class="list-unstyled">
+                <li data-i18n="ecomo">Mobile</li>
+                <li data-i18n="ecode">Desjtop</li>
+            </ul>
+          </div>
+          <div class="type">
+            <h3 data-i18n="ecorou">Routing Layer</h3>
+            <img src="../imgs/industries/e-commercegatway.PNG">
+            <p data-i18n="ecogat">Api Gateway</p>
+          </div>
+          <div class="type">
+          
+            <h3 data-i18n="ecomic">Microservice Layer</h3>
+            <ul class="list-unstyled">
+                <li data-i18n="ecocust">Customar Service</li>
+                <li data-i18n="ecoinv">Inventory Service</li>
+                <li data-i18n="ecoor">Order Service</li>
+                <li data-i18n="ecoshi">Shipping Service</li>
+            </ul>
+       </div>
+       <div class="type">
+          
+        <h3 data-i18n="ecosto">Data Storage</h3>
+        <ul class="list-unstyled">
+            <li data-i18n="ecodaba">Customar Database</li>
+            <li data-i18n="ecoinvdaba">Inventory Database</li>
+            <li data-i18n="ecoordaba">Order Database</li>
+            <li data-i18n="ecoshidaba">Shipping Database</li>
+        </ul>
+   </div>
+    </section>
+    <section class="section-m1">
+        <div class="general  shop">
+            <div class="image">
+                <img src="../imgs/industries/e-commerceshop.jpg">
+            </div>
+            <div class="eshop">
+             <h2 data-i18n="ecosoap">eCommerce software applications we test</h2>
+             <div class="eshoptest">
+                
+                <div class="test">
+                    <h3>B2B</h3>
+                    <h4>Business-to-business</h4>
+                    <p>eCommerce app</p>
+                </div>
+                <div class="test">
+                    <h3>B2C</h3>
+                    <h4>Business-to-consumer</h4>
+                    <p>eCommerce app</p>
+                </div>
+               
+                <div class="test">
+                    <h3>C2B</h3>
+                    <h4>Consumer-to-business</h4>
+                    <p>eCommerce app</p>
+                </div>
+                <div class="test">
+                    <h3>D2C</h3>
+                    <h4>Direct-to-consumer</h4>
+                    <p>eCommerce app</p>
+                </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-m1">
+        <div class="f-text ">
+            <h2 data-i18n="econeed">What features need to be tested?</h2>
+            
+       </div>
+       <div class="types fintech">
+          <div class="type">
+            <h5 data-i18n="ecosu">Sign up</h5>
+          </div>
+          <div class="type">
+            <h5 data-i18n="ecosi">Sign in</h5>
+          </div>
+          <div class="type">
+            <h5 data-i18n="ecoforg">Forget password</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecopro">User profile</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecocata">Catalog</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecofilt">Search and filters</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecores">Search result page</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecodet">Order details page</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecocar">Shopping cart</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecoprom">Deals and promo codes</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecoconf">Order confirmation page</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecopayref">Payment and refund</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecotrac">Order tracking</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecowis">Wishlist</h5>
+        </div>
+        <div class="type">
+            <h5 data-i18n="ecopag">Info page</h5>
+        </div>
+      
+    </section>
+    <section class="when section-m1">
+        <div class="f-text section-m1">
+          <h2 data-i18n="ecosol">Our solutions for your eCommerce application testing challenges</h2>
+          <p data-i18n="pecosol">We understand the unique obstacles that eCommerce businesses face in ensuring seamless operations and customer satisfaction. Let's delve into these challenges and unveil our tailored solutions.</p>
+        </div>
+
+        <h3 class="text-center" data-i18n="ecois">Compatibility issues</h3>
+        <div class="general challenge webapp eCommerce">
+           
+          <div class="step ">
+            <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p data-i18n="ecochan1">eCommerce platforms must seamlessly function across multiple devices and browsers, making compatibility testing a daunting task.</p>
+          </div>
+          <div class="solution">
+            <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p data-i18n="ecosol1">Our comprehensive compatibility testing ensures your website or application works seamlessly across various platforms, ensuring a consistent and delightful user experience for every customer.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center" data-i18n="perbot">Performance bottlenecks</h3>
+        <div class="general challenge webapp eCommerce">
+           
+          <div class="step ">
+            <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p data-i18n="ecochan2">Slow load times and performance issues can lead to frustrated users and abandoned shopping carts.</p>
+          </div>
+          <div class="solution">
+            <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p data-i18n="ecosol2">We conduct rigorous performance testing to identify and eliminate bottlenecks, ensuring your eCommerce platform delivers optimal speed and responsiveness, even during peak traffic.</p>
+        </div>
+          
+        </div>
+        
+        <h3 class="text-center" data-i18n="ecosagr">Security safeguards</h3>
+        <div class="general challenge webapp eCommerce">
+           
+          <div class="step ">
+            <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p data-i18n="ecochan3">With the rising threat of cyber-attacks, securing sensitive customer information is a paramount concern for eCommerce businesses.</p>
+          </div>
+          <div class="solution">
+            <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p data-i18n="ecosol3">Our robust security testing identifies vulnerabilities, helping you protect your platform against potential breaches, safeguarding your customers' trust, and ensuring compliance with industry standards.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center" data-i18n="ecopuzz">Payment gateway puzzles</h3>
+        <div class="general challenge webapp eCommerce">
+           
+          <div class="step ">
+            <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p data-i18n="ecochan4">Seamless payment transactions are critical for customer satisfaction, but integrating and testing payment gateways can be complex.</p>
+          </div>
+          <div class="solution">
+            <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p data-i18n="ecosol4"> Our specialized testing team verifies your payment gateways, ensuring smooth transactions and a secure payment process for your customers.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center" data-i18n="ecouncer">User experience uncertainties</h3>
+        <div class="general challenge webapp eCommerce">
+           
+          <div class="step ">
+            <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p data-i18n="ecochan5">Understanding how users interact with your eCommerce platform and ensuring an intuitive user experience can be challenging.</p>
+          </div>
+          <div class="solution">
+            <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p data-i18n="ecosol5">Our usability testing dives into a user journey, identifying pain points and optimizing a user interface for a seamless and enjoyable shopping experience.</p>
+        </div>
+          
+        </div>
+        <h3 class="text-center" data-i18n="ecoregres">Regression testing reservations</h3>
+        <div class="general challenge webapp eCommerce">
+           
+          <div class="step ">
+            <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+            <p data-i18n="ecochan6">As your eCommerce platform evolves, changes and updates can introduce unforeseen bugs or issues.</p>
+          </div>
+          <div class="solution">
+            <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+            <p data-i18n="ecosol6">Our regular regression testing ensures that each update enhances rather than hinders your platform, maintaining the integrity of your eCommerce system over time.</p>
+        </div>
+          
+        </div>
+      </section>
+      <section class="footer ">
+        <div class="footer-container">
+          <div class="foot">
+            <h3 data-i18n="abq">ABOUT Qzentrum</h3>
+            <p data-i18n="pabq1">QZentrum ist ein ambitionierter Startup-Anbieter von QA-Diensten.</p>
+            <p data-i18n="pabq2">Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+          </div>
+       
+          <div class="foot">
+            <h3 data-i18n="scon">Bleiben Sie in Kontakt</h3>
+            <div class="icons">
+              <a href="https://www.linkedin.com/company/102398877/admin/dashboard/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61567704837787"><i class="fa-brands fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            
+          </div>
+          </div>
+           <div class="foot">
+            <h3 data-i18n="coni">Kontaktinformationen</h3>
+            <p><a href="tel:01016096128" ><i class="fa-solid fa-mobile-retro"></i> <span data-i18n="nu">+20 101 609 6128</span></a></p>
+            <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i>sk@qzentrum.com</a></p>
+          
+          </div>
+        </div>
+        <div class="footer-copy">
+         
+           &copy;2024 <span>Qzentrum</span>, All rights reserved 
+        
+        </div>
+      </section>
+      <script src="../js/main.js" type="module"></script>
+</body>
+</html>

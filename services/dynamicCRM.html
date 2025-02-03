@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic CRM Testing </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    
+  <section id="header">
+    <nav class="header-nav">
+      <ul class="list-unstyled">
+          <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+          <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+          <li ><a href="#"><i class="fa-solid fa-phone"></i> <span data-i18n="nu">:+20 101 609 6128</span></a></li>
+      </ul>
+      <select>
+        <option value="en"  data-i18n="english">En</option>
+        <option value="ar" data-i18n="arabic">Ar</option>
+        <option value="ge" data-i18n="german">De</option>
+      </select>
+  </nav>
+
+  <div class="header-menu">
+    <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html" data-i18n="home">Home</a></li>
+        <li ><a href="../aboutus/qualityassurance.html" data-i18n="about">About us</a>
+         </li>
+        <li class="dropdown"><a href="#" data-i18n="services">services</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="submenu">
+            <li class="dropdown"><a href="#" data-i18n="sol">solutions</a><i class="fa-solid fa-chevron-down"></i>
+              <uL class="submenu submenu-right">
+                <li><a href="manaual-test.html" data-i18n="maual">manual testing</a></li>
+                        <li><a href="test-automation.html" data-i18n="auto">test automation</a></li>
+                        <li><a href="performance-test.html" data-i18n="perform">Performance testing</a></li>
+                        <li><a href="qacontrol&advisory.html" data-i18n="control">QA Control & Advisory</a></li>
+                        <li><a href="qastrategy&processdesign.html" data-i18n="strategy">QA Strategy & Process design</a></li>
+                        <li><a href="devops.html" data-i18n="dev">devOps</a></li>
+                        <li><a href="jira.html" data-i18n="jira">jira</a></li>
+                        <li><a href="endtoend.html" data-i18n="end">end to End Testing</a></li>
+                       
+                  
+              </uL>
+          </li>
+          <li class="dropdown"><a href="#" data-i18n="sysandplat">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+            <uL class="submenu submenu-right">
+                <li><a href="webapps.html" data-i18n="web">web apps</a></li>
+                <li><a href="mobileapps.html" data-i18n="mob">mobile apps</a></li>
+                <li><a href="sap.html" data-i18n="sap">SAP</a></li>
+                <li><a href="erp.html" data-i18n="erp">ERP</a></li>
+                <li><a href="dynamicCRM.html" data-i18n="dynamic">dynamic CRM</a></li>
+               
+                <li><a href="financialsystem.html" data-i18n="fianancial">Financial System</a></li>
+                
+            </uL>
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="cover">coverage</a><i class="fa-solid fa-chevron-down"></i>
+          <uL class="submenu submenu-right">
+              <li><a href="functional.html" data-i18n="func">functional Testing</a></li>
+              <li class="dropdown"><a href="non-functional.html" data-i18n="nonfunc">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+               <ul class="submenu submenu-right">
+                  <li><a href="ui&ux.html" data-i18n="uiux">UI&UX Testing</a></li>
+                  <li><a href="load&stress.html" data-i18n="loadstress">load & Stress Testing</a></li>
+               </ul>
+              </li>
+              <li><a href="system-test.html" data-i18n="systest">system Testing</a></li>
+              <li><a href="intergration.html" data-i18n="integration">integration Testing</a></li>
+              <li><a href="uat.html" data-i18n="uat">UAT Testing</a></li>
+              <li><a href="localization.html" data-i18n="local">Localization Testing</a></li>
+              <li><a href="ad-hoc.html" data-i18n="adhoc">Ad-Hoc Testing</a></li>
+              <li><a href="api-test.html" data-i18n="api">Api Testing</a></li>
+              
+          </uL></li>
+            
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="industries">industries</a><i class="fa-solid fa-chevron-down"></i>
+          
+        
+            <ul class="submenu ">
+                <div class="twolist">
+                  <li><a href="../industries/fintech.html" data-i18n="fintech">fintech</a></li>
+                  <li><a href="../industries/healthcare.html" data-i18n="health">healthCare</a></li>
+                  <li><a href="../industries/businessapp.html" data-i18n="business">business app</a></li>
+                  <li><a href="../industries/travel.html" data-i18n="travel">travel</a></li>
+                  <li><a href="../industries/e-learning.html" data-i18n="elearn">e-learning</a></li>
+                  <li><a href="../industries/insurance.html" data-i18n="insurance">insurance</a></li>
+                  <li><a href="../industries/e-commerce.html" data-i18n="ecommerce">e-commerce</a></li>
+                  <li><a href="../industries/hr.html" data-i18n="hr">HR</a></li>
+            </div>
+            </ul>
+    
+       
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="frameworks">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="submenu">
+            <div class="twolist">
+              <li><a href="../frameworks/selenuim.html" data-i18n="selenium">selenium</a></li>
+              <li><a href="../frameworks/playwright.html" data-i18n="playwright">playwright</a></li>
+              <li><a href="../frameworks/testng.html" data-i18n="testng">testNG</a></li>
+            
+              <li><a href="../frameworks/maven.html" data-i18n="maven">maven</a></li>
+              <li><a href="../frameworks/tosca.html" data-i18n="tosca">tosca</a></li>
+              <li><a href="../frameworks/cucumber.html" data-i18n="cucumber">cucumber</a></li>
+              <li><a href="../frameworks/cypress.html" data-i18n="cypress">cypress</a></li>
+              <li><a href="../frameworks/appium.html" data-i18n="appium">appium</a></li>
+              <li><a href="../frameworks/postman.html" data-i18n="postman">postman</a></li>
+        </div>  
+        </ul>
+        </li>
+        
+        <li><a href="../contactus.html" data-i18n="contact">contact us</a></li>
+        <button class="closemenu">X</button>
+    </ul>
+   </nav>
+     <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+   </div>
+    </section>
+    <button class="chat-toggle">
+      <span><i class="fa-brands fa-rocketchat"></i></span>
+      
+    </button>
+    <section class="chatbot">
+      <header >
+        <span class="closechat">x</span>
+        <i class="fa-brands fa-bots fa-3x"></i>
+        <h2>Let's chat!</h2>
+      </header>
+      <div class="chat-area">
+        <div class="chat bot">
+          <p>Hi there,   <br>Please let me know how can i help you? </p>
+        </div>
+        <div class="chat human">
+        </div>
+      </div>
+      <form class="input-chat">
+        <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </section>
+         <section class="section-m1">
+        <div class="general fgeneral">
+           <div class="image">
+               <img src="../imgs/services/crm.jpg">
+           </div>
+           <div class="text">
+           <p data-i18n="dynadef2"> Dynamic CRM systems  have become one of the key tools for customer-oriented businesses. Software of this kind helps significantly improve customer service, retention rate, productivity, efficiency, loyalty, and sales. It serves as a centralized database and provides accurate analytics and forecasting. While top-notch CRM systems bring multiple benefits, poorly working ones can adversely impact team performance, customer service, and, consequently, revenue. Therefore, to ensure the sound functioning of a CRM system, it’s crucial to test it scrupulously. At Qentrum, we provide professional testing of platform-based and bespoke CRM systems. Engage our team, if you are determined to create a CRM solution of superior quality.</p>
+           </div>
+         </div>
+         </section>
+         <section class="when section-m1">
+            <div class="f-text ">
+              <h2 data-i18n="crmdef">Our solutions for your CRM testing challenges</h2>
+              <p data-i18n="pcrmdef">We understand the importance of CRM testing for the success of your business. Our tailored QA solutions address all encountered challenges head-on, ensuring your CRM system operates seamlessly, securely, and robustly.</p>
+            </div>
+
+            <h3 class="text-center" data-i18n="insdhan">Inconsistent data handling</h3>
+            <div class="general challenge crm">
+               
+              <div class="step ">
+                <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+                <p data-i18n="crmchan1">Managing diverse and inconsistent data within a CRM system often leads to errors, affecting decision-making and overall business efficiency.</p>
+              </div>
+              <div class="solution">
+                <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+                <p data-i18n="crmsol1">We used automated testing tools to implement robust data validation processes and ensure data accuracy. Our experts conduct thorough data audits and establish protocols for seamless data handling, preventing disruptions in the operation of your CRM system.</p>
+            </div>
+              
+            </div>
+            <h3 class="text-center" data-i18n="issri3">Issues related to integration with third-party apps</h3>
+            <div class="general challenge crm">
+               
+              <div class="step ">
+                <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+                <p data-i18n="crmchan2">Many CRM systems struggle to integrate with third-party applications seamlessly and face workflow disruptions and hindered collaboration.</p>
+              </div>
+              <div class="solution">
+                <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+                <p data-i18n="crmsol2">We specialize in comprehensive integration testing. Our team carries out rigorous testing using various scenarios to identify potential integration bottlenecks and ensure smooth interactions of your CRM with third-party apps.</p>
+            </div>
+              
+            </div>
+            
+            <h3 class="text-center" data-i18n="perscacon">Performance and scalability concerns</h3>
+            <div class="general challenge crm">
+               
+              <div class="step ">
+                <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+                <p data-i18n="crmchan3">As your business grows, the CRM system must handle increased data and user loads. Performance issues can slow down business operations and affect productivity.</p>
+              </div>
+              <div class="solution">
+                <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+                <p data-i18n="crmsol3">Our experts execute load testing and performance testing to help you address scalability concerns head-on. We analyze the performance of your CRM system under various conditions, identify potential bottlenecks, and help you implement optimizations to ensure your CRM system scales with your business growth.</p>
+            </div>
+              
+            </div>
+           
+            <h3 class="text-center" data-i18n="insecmea">inadequate security measures</h3>
+            <div class="general challenge crm">
+               
+              <div class="step ">
+                <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+                <p data-i18n="crmchan4">Security breaches can compromise sensitive data, destroying clients’ trust and damaging your brand's reputation.</p>
+              </div>
+              <div class="solution">
+                <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+                <p data-i18n="crmsol4">Our CRM testing services include robust security testing. We conduct numerous security tests, including penetration testing, to help you protect your CRM system against potential threats and ensure the confidentiality and integrity of your data.</p>
+            </div>
+              
+            </div>
+            <h3 class="text-center" data-i18n="uiissux">UI/UX issues</h3>
+            <div class="general challenge crm">
+               
+              <div class="step ">
+                <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+                <p data-i18n="crmchan5">A clunky or confusing user interface can lead to frustration among users, impacting their overall experience with your CRM system.</p>
+              </div>
+              <div class="solution">
+                <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+                <p data-i18n="crmsol5">Our experts conduct thorough usability testing to ensure a seamless and intuitive user experience. We provide actionable insights to enhance the UI, optimizing navigation and ensuring that users can easily leverage the full potential of your CRM system.</p>
+            </div>
+              
+            </div>
+            <h3 class="text-center" data-i18n="regtesbu">Regression testing burden</h3>
+            <div class="general challenge crm">
+               
+              <div class="step ">
+                <span data-i18n="chan"> <i class="fa-regular fa-circle-xmark"></i> Challenges</span>
+                <p data-i18n="crmchan6">Regular updates and modifications to your CRM system can introduce unintended errors and affect existing functionalities.</p>
+              </div>
+              <div class="solution">
+                <span data-i18n="soluo"> <i class="fa-solid fa-circle-check"></i> Solution</span>
+                <p data-i18n="crmsol6">Our comprehensive regression testing services ease the burden of post-update issues. We automate repetitive regression tests, ensuring that each software update does not affect previously created functionalities, guaranteeing a smooth and error-free user experience.</p>
+            </div>
+              
+            </div>
+          </section>
+
+    
+        <section class="section-m1">
+            <div class="f-text ">
+                <h2 data-i18n="crmsco">Our scope of CRM testing services</h2>
+                <p data-i18n="pcrmsco">Our expert team of testers provides comprehensive testing solutions, covering a range of crucial aspects and ensuring the unmatched quality of your CRM system. Explore the various types of tests we execute in the course of CRM testing:</p>
+           </div>
+           <div class="types crm">
+              <div class="type">
+                
+                <h3 data-i18n="func">functional testing</h3>
+                <p data-i18n="pfunccrm">Ensure a CRM system meets your functional requirements. Our meticulous functional testing services validate that every feature and functionality within your CRM functions as intended, providing you with a reliable and efficient solution.</p>
+              </div>
+              <div class="type">
+                
+                <h3 data-i18n="compates">Compatibility testing</h3>
+                <p data-i18n="pcompates">Your CRM should work seamlessly across different platforms, browsers, and devices. Our compatibility testing ensures that your CRM system operates consistently, offering a uniform user experience regardless of the user's environment.</p>
+              </div>
+              <div class="type">
+                
+                <h3 data-i18n="perform">Performance testing</h3>
+                <p data-i18n="pperformcrm">Performance is key to user satisfaction. Our performance testing evaluates the responsiveness, speed, and stability of your CRM solution under various workloads. Identify and address potential performance bottlenecks to guarantee flawless system work even during peak usage.</p>
+            
+           </div>
+           <div class="type">
+            
+            <h3 data-i18n="sectes">Security testing</h3>
+            <p data-i18n="psectescrm">Protect your sensitive data and maintain customer trust with our comprehensive security testing services. We identify vulnerabilities, assess data protection measures, and ensure that your CRM system is safeguarded against potential security threats.</p>
+          </div>
+          <div class="type">
+            
+            <h3 data-i18n="guites">GUI testing</h3>
+            <p data-i18n="pguites">A user-friendly interface is essential for a positive user experience. Our GUI testing evaluates the graphical user interface of your CRM, ensuring that it is intuitive, visually appealing, and operates smoothly, enhancing overall software usability.</p>
+          </div>
+          <div class="type">
+            
+            <h3 data-i18n="usit">usability testing</h3>
+            <p data-i18n="puistcrm">Understand how users interact with your CRM. Our usability testing assesses the user-friendliness and accessibility of your CRM system, identifying areas for improvement to enhance the overall user experience.</p>
+          </div>
+        </section>
+        <section class="footer ">
+          <div class="footer-container">
+            <div class="foot">
+              <h3 data-i18n="abq">ABOUT Qzentrum</h3>
+              <p data-i18n="pabq1">QZentrum ist ein ambitionierter Startup-Anbieter von QA-Diensten.</p>
+              <p data-i18n="pabq2">Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+            </div>
+         
+            <div class="foot">
+              <h3 data-i18n="scon">Bleiben Sie in Kontakt</h3>
+              <div class="icons">
+                <a href="https://www.linkedin.com/company/102398877/admin/dashboard/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61567704837787"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+              
+            </div>
+            </div>
+             <div class="foot">
+              <h3 data-i18n="coni">Kontaktinformationen</h3>
+              <p><a href="tel:01016096128" ><i class="fa-solid fa-mobile-retro"></i> <span data-i18n="nu">+20 101 609 6128</span></a></p>
+              <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i>sk@qzentrum.com</a></p>
+            
+            </div>
+          </div>
+          <div class="footer-copy">
+           
+             &copy;2024 <span>Qzentrum</span>, All rights reserved 
+          
+          </div>
+        </section>
+        <script src="../js/main.js" type="module"></script>
+</body>
+</html>

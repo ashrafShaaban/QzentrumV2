@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test automation with Cypress</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  
+  <section id="header">
+    <nav class="header-nav">
+      <ul class="list-unstyled">
+          <li><a href="https://www.qzentrum.com">www.Qzentrum.com</a></li>
+          <li><a href="mailto:sk@qzentrum.com"><i class="fa-regular fa-envelope"></i>: sk@qzentrum.com</a></li>
+          <li ><a href="#"><i class="fa-solid fa-phone"></i> <span data-i18n="nu">:+20 101 609 6128</span></a></li>
+      </ul>
+      <select>
+        <option value="en"  data-i18n="english">En</option>
+        <option value="ar" data-i18n="arabic">Ar</option>
+        <option value="ge" data-i18n="german">De</option>
+      </select>
+  </nav>
+
+     <div class="header-menu">
+      <a href="../index.html" class="logo"><img src="../imgs/logooo.ico"></a>
+      <nav class="menu">
+          <ul>
+            <li><a href="../index.html" data-i18n="home">Home</a></li>
+            <li class="dropdown"><a href="../aboutus/qualityassurance.html" data-i18n="about">About us</a>
+              </li>
+          <li class="dropdown"><a href="#" data-i18n="services">services</a><i class="fa-solid fa-chevron-down"></i>
+            <ul class="submenu">
+              <li class="dropdown"><a href="#" data-i18n="sol">solutions</a><i class="fa-solid fa-chevron-down"></i>
+                <uL class="submenu submenu-right">
+                  <li><a href="../services/manaual-test.html" data-i18n="maual">manual testing</a></li>
+                  <li><a href="../services/test-automation.html" data-i18n="auto">test automation</a></li>
+                  <li><a href="../services/performance-test.html" data-i18n="perform">Performance testing</a></li>
+                  <li><a href="../services/qacontrol&advisory.html" data-i18n="control">QA Control & Advisory</a></li>
+                  <li><a href="../services/qastrategy&processdesign.html" data-i18n="strategy">QA Strategy & Process design</a></li>
+                  <li><a href="../services/devops.html" data-i18n="dev">devOps</a></li>
+                  <li><a href="../services/jira.html" data-i18n="jira">jira</a></li>
+                  <li><a href="../services/endtoend.html" data-i18n="end">end to End Testing</a></li>
+                    
+                </uL>
+            </li>
+              <li class="dropdown"><a href="#" data-i18n="sysandplat">systems & platforms</a><i class="fa-solid fa-chevron-down"></i>
+                  <uL class="submenu submenu-right">
+                    <li><a href="../services/webapps.html" data-i18n="web">web apps</a></li>
+                    <li><a href="../services/mobileapps.html" data-i18n="mob">mobile apps</a></li>
+                    <li><a href="../services/sap.html" data-i18n="sap">SAP</a></li>
+                    <li><a href="../services/erp.html" data-i18n="erp">ERP</a></li>
+                    <li><a href="../services/dynamicCRM.html" data-i18n="dynamic">dynamic CRM</a></li>
+                   
+                    <li><a href="../services/financialsystem.html" data-i18n="fianancial">Financial System</a></li>
+                  </uL>
+              </li>
+              <li class="dropdown"><a href="#" data-i18n="cover">coverage</a><i class="fa-solid fa-chevron-down"></i>
+                <uL class="submenu submenu-right">
+                    <li><a href="../services/functional.html" data-i18n="func">functional Testing</a></li>
+                    <li class="dropdown"><a href="/services/non-functional.html" data-i18n="nonfunc">non-functional Testing</a><i class="fa-solid fa-chevron-down"></i>
+                     <ul class="submenu submenu-right">
+                        <li><a href="../services/ui&ux.html" data-i18n="uiux">UI&UX Testing</a></li>
+                        <li><a href="../services/load&stress.html" data-i18n="loadstress">load & Stress Testing</a></li>
+                     </ul>
+                    </li>
+                    <li><a href="../services/system-test.html" data-i18n="systest">system Testing</a></li>
+                    <li><a href="../services/intergration.html" data-i18n="integration">integration Testing</a></li>
+                    <li><a href="../services/uat.html" data-i18n="uat">UAT Testing</a></li>
+                    <li><a href="../services/localization.html" data-i18n="local">Localization Testing</a></li>
+                    <li><a href="../services/ad-hoc.html" data-i18n="adhoc">Ad-Hoc Testing</a></li>
+                    <li><a href="../services/api-test.html" data-i18n="api">Api Testing</a></li>
+                    
+                </uL></li>
+              
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-i18n="industries">industries</a><i class="fa-solid fa-chevron-down"></i>
+            
+          
+            <ul class="submenu ">
+                <div class="twolist">
+                <li><a href="../industries/fintech.html" data-i18n="fintech">fintech</a></li>
+                <li><a href="../industries/healthcare.html" data-i18n="health">healthCare</a></li>
+                <li><a href="../industries/businessapp.html" data-i18n="business">business app</a></li>
+                <li><a href="../industries/travel.html" data-i18n="travel">travel</a></li>
+                <li><a href="../industries/e-learning.html" data-i18n="elearn">e-learning</a></li>
+                <li><a href="../industries/insurance.html" data-i18n="insurance">insurance</a></li>
+                <li><a href="../industries/e-commerce.html" data-i18n="ecommerce">e-commerce</a></li>
+                <li><a href="../industries/hr.html" data-i18n="hr">HR</a></li>
+            </div>
+            </ul>
+    
+       
+        </li>
+        <li class="dropdown"><a href="#" data-i18n="frameworks">frameworks</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="submenu">
+            <div class="twolist">
+            <li><a href="selenuim.html" data-i18n="selenium">selenium</a></li>
+            <li><a href="playwright.html" data-i18n="playwright">playwright</a></li>
+            <li><a href="testng.html" data-i18n="testng">testNG</a></li>
+          
+            <li><a href="maven.html" data-i18n="maven">maven</a></li>
+            <li><a href="tosca.html" data-i18n="tosca">tosca</a></li>
+            <li><a href="cucumber.html" data-i18n="cucumber">cucumber</a></li>
+            <li><a href="cypress.html" data-i18n="cypress">cypress</a></li>
+            <li><a href="appium.html" data-i18n="appium">appium</a></li>
+            <li><a href="postman.html" data-i18n="postman">postman</a></li>
+        </div>  
+        </ul>
+        </li>
+         
+         
+          <li><a href="../contactus.html" data-i18n="contact">contact us</a></li>
+          <button class="closemenu">X</button>
+      </ul>
+     </nav>
+     <button  class="menubtn"><i class="fa-solid fa-bars"></i></button>
+     </div>
+</section>
+    <button class="chat-toggle">
+      <span><i class="fa-brands fa-rocketchat"></i></span>
+      
+    </button>
+    <section class="chatbot">
+      <header >
+        <span class="closechat">x</span>
+        <i class="fa-brands fa-bots fa-3x"></i>
+        <h2>Let's chat!</h2>
+      </header>
+      <div class="chat-area">
+        <div class="chat bot">
+          <p>Hi there,   <br>Please let me know how can i help you? </p>
+        </div>
+        <div class="chat human">
+        </div>
+      </div>
+      <form class="input-chat">
+        <textarea class="msg-text" placeholder="Enter your message..." required></textarea>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </section>
+    <section class="section-m1" >
+        <div class="general fgeneral ">
+            <div class="image">
+                <img src="../imgs/frameworks/cypress.png">
+            </div>
+            <div class="text">
+            <p data-i18n="cuydef"> Cypress is an open-source end-to-end testing framework used by QA experts globally for automating web tests. Renowned for its speed, reliability, and user-friendly testing environment, Cypress plays a pivotal role in ensuring the top quality of modern web applications.
+
+            </p>
+            </div>
+        </div>
+    </section>
+     <section class="section-m1">
+        <div class="f-text ">
+            <h2 data-i18n="cuyneed">When do you need Cypress test automation services?</h2>
+          
+       </div>
+       <div class="types cypress1">
+          <div class="type">
+            
+            <h3 data-i18n="cuycons">Consulting on automation test with cypress</h3>
+            <p data-i18n="pcuycons">Armed with ample expertise in test automation and Cypress our consultants can guide you in building effective Cypress-based test automation solutions, adopting best practices, and implementing optimal testing approaches.</p>
+          </div>
+          <div class="type">
+           
+            <h3 data-i18n="cuycra">Crafting test automation plans</h3>
+            <p data-i18n="pcuycra">A test automation plan serves as a roadmap for a QA team. We design tailored test automation plans that outline key goals, the scope of automation, criteria for test case selection, test requirements, tech stack considerations, and others. With such a comprehensive plan in place, we ensure confidence that no critical aspects are overlooked in our automation endeavors.</p>
+          </div>
+          <div class="type">
+
+            <h3 data-i18n="cuyint">Continuous integration and continuous deployment (CI/CD)</h3>
+            <p data-i18n="pcuyint">Cypress integrates seamlessly with CI/CD pipelines, making it an ideal choice for teams adopting DevOps practices. Tests automated with Cypress can be triggered after each code commit, providing immediate feedback on the impact of new changes. This ensures that only thoroughly tested code progresses through the development pipeline, maintaining the integrity of your software.</p>
+        
+        </div>
+         <div class="type">
+
+            <h3 data-i18n="cuycuy">Building Cypress automation solutions from scratch</h3>
+            <p data-i18n="pcuycuy">Regardless of your application's complexity and current development stage, we are ready to create a Cypress test automation solution from the ground up. You can be confident that the solution will be not only efficient and reliable but also scalable and maintainable.</p>
+    
+         </div>
+            <div class="type">
+
+             <h3 data-i18n="cuyexi">Optimizing existing Cypress automation solutions</h3>
+             <p data-i18n="pcuyexi">If your Cypress automation solution lacks efficiency, our automation QA engineers can step in to refine it, by reassessing your testing strategy, adopting best practices, filling the gaps, and eliminating weaknesses.</p>
+
+            </div>
+    </section>
+    <section class="section-m1">
+        <div class="f-text ">
+            <h2 data-i18n="cuyser">Cypress automation testing services</h2>
+          <p data-i18n="cuylev">Our team of experts leverages the power of Cypress to deliver super-efficient and comprehensive testing solutions.</p>
+       </div>
+       <div class="types cypress2">
+          <div class="type">
+            
+            <h3 data-i18n="cuysui">Creating test suites</h3>
+            <p data-i18n="pcuysui">Addressing your unique testing requirements, we design tailor-made test suites for comprehensive testing. Our goal is to maximize test coverage efficiency while optimizing test execution time.</p>
+          </div>
+          <div class="type">
+           
+            <h3 data-i18n="cicd">Integrating tests into CI/CD pipelines</h3>
+            <p data-i18n="pcuycicd">If your project is one of those adopting DevOps practices, we can seamlessly integrate Cypress tests into your CI/CD pipelines, enhancing the overall efficiency and reliability of the software development lifecycle.</p>
+          </div>
+          <div class="type">
+
+            <h3 data-i18n="cucsup">Providing continous support and maintenance</h3>
+            <p data-i18n="cuysup1">Our commitment extends beyond implementation. We offer ongoing support and maintenance services to keep your Cypress-based tests up-to-date with changes in your applications and advancements in technology.</p>
+        
+        </div>
+         <div class="type">
+
+            <h3 data-i18n="cuyopt">Optimizing existing Playwright test automation</h3>
+            <p data-i18n="pcuyopt">If you have an existing Playwright test automation solution that does not meet your needs, our experts can step in to optimize it. They will analyze your current setup, identify areas for improvement, and implement enhancements to maximize the efficiency and effectiveness of your Playwright-based tests.</p>
+    
+         </div>
+            <div class="type">
+
+             <h3 data-i18n="cicd">Integration tests into CI/CD pipelines</h3>
+             <p data-i18n="pcuycicd">As proponents of DevOps practices, we seamlessly integrate Playwright-based automated tests into your CI/CD pipelines. This brings numerous benefits, such as earlier bug detection, shorter feedback loops, faster releases, and improved software quality.</p>
+
+            </div>
+            <div class="type">
+
+                <h3  data-i18n="cucsup">Providing ongoing support and maintenance</h3>
+                <p data-i18n="pcucsup">At QZentrum, we offer continuous support and maintenance services to keep your automated tests up-to-date with changes in your applications and advancements in technology.</p>
+   
+               </div>
+    </section>
+    <section class="footer ">
+      <div class="footer-container">
+        <div class="foot">
+          <h3 data-i18n="abq">ABOUT Qzentrum</h3>
+          <p data-i18n="pabq1">QZentrum ist ein ambitionierter Startup-Anbieter von QA-Diensten.</p>
+          <p data-i18n="pabq2">Offering more than 20 types of QA services, we can cover absolutely every need in testing.</p>
+        </div>
+     
+        <div class="foot">
+          <h3 data-i18n="scon">Bleiben Sie in Kontakt</h3>
+          <div class="icons">
+            <a href="https://www.linkedin.com/company/102398877/admin/dashboard/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61567704837787"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+          
+        </div>
+        </div>
+         <div class="foot">
+          <h3 data-i18n="coni">Kontaktinformationen</h3>
+          <p><a href="tel:01016096128" ><i class="fa-solid fa-mobile-retro"></i> <span data-i18n="nu">+20 101 609 6128</span></a></p>
+          <p><a href="mailto:sk@qzentrum.com"><i class="fa-solid fa-envelope"></i>sk@qzentrum.com</a></p>
+        
+        </div>
+      </div>
+      <div class="footer-copy">
+       
+         &copy;2024 <span>Qzentrum</span>, All rights reserved 
+      
+      </div>
+    </section>
+    <script src="../js/main.js" type="module"></script>
+</body>
+</html>
