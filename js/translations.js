@@ -175,7 +175,7 @@ const translations = {
     
       //footer
       abq:"ABOUT QZentrum",pabq1:"QZentrum is an Ambitious Startup provider of QA services.",pabq2:"Offering more than 20 types of QA services, we can cover absolutely every need in testing.",scon:"Stay connected",coni:"contact info",
-
+      copy:` 2024 Qzentrum , All rights reserved`,
       //contact
       gein:"Get in Touch",phnu:"Phone Number",emad:"Email Address",nu:"+20 101 609 6128",
 
